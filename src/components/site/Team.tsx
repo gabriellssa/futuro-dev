@@ -27,7 +27,9 @@ export function Team() {
             <p className="mt-1 text-sm text-muted-foreground">ADS – 1º Período – UNIG-EAD</p>
             <div className="mt-6 flex items-center justify-center gap-3">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/gabriel-lessa-3539693a0/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="grid h-11 w-11 place-items-center rounded-full glass glass-hover"
                 aria-label="LinkedIn"
               >
@@ -35,6 +37,8 @@ export function Team() {
               </a>
               <a
                 href="#"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="grid h-11 w-11 place-items-center rounded-full glass glass-hover"
                 aria-label="GitHub"
               >
