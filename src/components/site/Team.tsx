@@ -1,5 +1,6 @@
-import { Github, Linkedin, Mail, Send, User } from "lucide-react";
+import { Github, Linkedin, Mail, Send } from "lucide-react";
 import { useState } from "react";
+import gabrielPhoto from "@/assets/gabriel-ricardo.jpg";
 
 export function Team() {
   const [sent, setSent] = useState(false);
