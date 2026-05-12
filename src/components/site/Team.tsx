@@ -46,22 +46,14 @@ export function Team() {
 
         <div className="reveal mt-16 grid gap-8 lg:grid-cols-2">
           <div className="glass rounded-2xl p-8">
-            <h3 className="font-display text-2xl font-bold">Fale com a equipe</h3>
+            <h3 className="font-display text-2xl font-bold">Contato</h3>
             <p className="mt-2 text-sm text-muted-foreground">
               Tem dúvidas, sugestões ou quer trocar uma ideia sobre desenvolvimento web? Envie uma mensagem.
             </p>
             <div className="mt-6 space-y-3 text-sm text-muted-foreground">
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
-                contato@devweb-unig.dev
-              </div>
-              <div className="flex items-center gap-3">
-                <Github className="h-4 w-4 text-primary" />
-                github.com/devweb-unig
-              </div>
-              <div className="flex items-center gap-3">
-                <Linkedin className="h-4 w-4 text-primary" />
-                linkedin.com/in/devweb-unig
+                lessagabriel2105@gmail.com
               </div>
             </div>
             <p className="mt-8 rounded-xl border border-border/60 bg-background/40 p-4 text-xs text-muted-foreground">
