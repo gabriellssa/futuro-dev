@@ -1,5 +1,6 @@
-import { Github, Linkedin, Mail, Send, User } from "lucide-react";
+import { Github, Linkedin, Mail, Send } from "lucide-react";
 import { useState } from "react";
+import gabrielPhoto from "@/assets/gabriel-ricardo.jpg";
 
 export function Team() {
   const [sent, setSent] = useState(false);
@@ -18,11 +19,11 @@ export function Team() {
         </div>
 
         <div className="mt-16 flex justify-center">
-          <div className="reveal glass glass-hover w-full max-w-md rounded-2xl p-10 text-center">
-            <div className="mx-auto grid h-32 w-32 place-items-center rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 ring-1 ring-primary/30">
-              <User className="h-14 w-14 text-primary" />
+          <div className="reveal glass glass-hover mx-auto w-full max-w-md rounded-2xl p-10 text-center">
+            <div className="mx-auto h-32 w-32 overflow-hidden rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 ring-1 ring-primary/30">
+              <img src={gabrielPhoto} alt="Gabriel Ricardo" className="h-full w-full object-cover" />
             </div>
-            <h3 className="mt-6 font-display text-2xl font-semibold">Felipe Resende</h3>
+            <h3 className="mt-6 font-display text-2xl font-semibold">Gabriel Ricardo</h3>
             <p className="mt-1 text-sm text-muted-foreground">ADS – 1º Período – UNIG-EAD</p>
             <div className="mt-6 flex items-center justify-center gap-3">
               <a
