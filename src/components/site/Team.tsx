@@ -1,8 +1,6 @@
 import { Github, Linkedin, Mail, Send, User } from "lucide-react";
 import { useState } from "react";
 
-const members = [1, 2, 3];
-
 export function Team() {
   const [sent, setSent] = useState(false);
 
@@ -10,45 +8,39 @@ export function Team() {
     <section id="equipe" className="relative py-28">
       <div className="mx-auto max-w-7xl px-6">
         <div className="reveal mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Redes e Contatos</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Representante do Trabalho</p>
           <h2 className="mt-3 font-display text-4xl font-bold sm:text-5xl">
-            Nossa <span className="text-gradient">Equipe</span>
+            Representante do <span className="text-gradient">Projeto</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Os integrantes responsáveis por este projeto e formas de entrar em contato.
+            Conheça o responsável por este projeto e as formas de entrar em contato.
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-3">
-          {members.map((m) => (
-            <div key={m} className="reveal glass glass-hover rounded-2xl p-6 text-center">
-              <div className="mx-auto grid h-24 w-24 place-items-center rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 ring-1 ring-primary/30">
-                <User className="h-10 w-10 text-primary" />
-              </div>
-              <h3 className="mt-5 font-display text-lg font-semibold">Nome do Integrante</h3>
-              <p className="text-sm text-muted-foreground">ADS – 1º Período</p>
-              <div className="mt-5 flex items-center justify-center gap-3">
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="grid h-10 w-10 place-items-center rounded-full glass glass-hover"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="h-4 w-4 text-primary" />
-                </a>
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="grid h-10 w-10 place-items-center rounded-full glass glass-hover"
-                  aria-label="GitHub"
-                >
-                  <Github className="h-4 w-4 text-primary" />
-                </a>
-              </div>
+        <div className="mt-16 flex justify-center">
+          <div className="reveal glass glass-hover w-full max-w-md rounded-2xl p-10 text-center">
+            <div className="mx-auto grid h-32 w-32 place-items-center rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 ring-1 ring-primary/30">
+              <User className="h-14 w-14 text-primary" />
             </div>
-          ))}
+            <h3 className="mt-6 font-display text-2xl font-semibold">Felipe Resende</h3>
+            <p className="mt-1 text-sm text-muted-foreground">ADS – 1º Período – UNIG-EAD</p>
+            <div className="mt-6 flex items-center justify-center gap-3">
+              <a
+                href="#"
+                className="grid h-11 w-11 place-items-center rounded-full glass glass-hover"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-5 w-5 text-primary" />
+              </a>
+              <a
+                href="#"
+                className="grid h-11 w-11 place-items-center rounded-full glass glass-hover"
+                aria-label="GitHub"
+              >
+                <Github className="h-5 w-5 text-primary" />
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="reveal mt-16 grid gap-8 lg:grid-cols-2">
