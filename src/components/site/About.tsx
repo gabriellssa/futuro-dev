@@ -39,7 +39,7 @@ const opportunities = [
 
 function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return (
-    <div className={`reveal glass glass-hover rounded-2xl p-6 ${className}`}>{children}</div>
+    <div className={`reveal glass glass-hover rounded-2xl p-5 sm:p-6 ${className}`}>{children}</div>
   );
 }
 
