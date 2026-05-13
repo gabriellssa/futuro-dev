@@ -36,7 +36,7 @@ export function Team() {
                 <Linkedin className="h-5 w-5 text-primary" />
               </a>
               <a
-                href="#"
+                href="https://github.com/gabriellssa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="grid h-11 w-11 place-items-center rounded-full glass glass-hover"
