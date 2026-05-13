@@ -41,7 +41,7 @@ export function Navbar() {
         scrolled ? "glass border-b border-border/40" : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 py-4">
         <a href="#inicio" className="flex items-center gap-2 font-display text-lg font-bold">
           <span className="grid h-9 w-9 place-items-center rounded-lg btn-primary">
             <Code2 className="h-5 w-5" />
