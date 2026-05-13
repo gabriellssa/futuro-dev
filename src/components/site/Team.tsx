@@ -19,7 +19,7 @@ export function Team() {
         </div>
 
         <div className="mt-16 flex justify-center">
-          <div className="reveal glass glass-hover mx-auto w-full max-w-md rounded-2xl p-10 text-center">
+          <div className="reveal glass glass-hover mx-auto w-full max-w-md rounded-2xl p-6 text-center sm:p-10">
             <div className="mx-auto h-32 w-32 overflow-hidden rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 ring-1 ring-primary/30">
               <img src={gabrielPhoto} alt="Gabriel Ricardo" className="h-full w-full object-cover" />
             </div>
