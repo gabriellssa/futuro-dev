@@ -49,13 +49,13 @@ export function Team() {
         </div>
 
         <div className="reveal mt-16 grid gap-8 lg:grid-cols-2">
-          <div className="glass rounded-2xl p-8">
+          <div className="glass rounded-2xl p-6 sm:p-8">
             <h3 className="font-display text-2xl font-bold">Contato</h3>
             <p className="mt-2 text-sm text-muted-foreground">
               Tem dúvidas, sugestões ou quer trocar uma ideia sobre desenvolvimento web? Envie uma mensagem.
             </p>
             <div className="mt-6 space-y-3 text-sm text-muted-foreground">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 break-all">
                 <Mail className="h-4 w-4 text-primary" />
                 lessagabriel2105@gmail.com
               </div>
@@ -72,7 +72,7 @@ export function Team() {
               setSent(true);
               setTimeout(() => setSent(false), 3000);
             }}
-            className="glass rounded-2xl p-8"
+            className="glass rounded-2xl p-6 sm:p-8"
           >
             <div className="space-y-4">
               <div>
