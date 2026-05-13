@@ -6,11 +6,11 @@ export function Team() {
   const [sent, setSent] = useState(false);
 
   return (
-    <section id="equipe" className="relative py-28">
-      <div className="mx-auto max-w-7xl px-6">
+    <section id="equipe" className="relative py-16 sm:py-24 md:py-28">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="reveal mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Representante do Trabalho</p>
-          <h2 className="mt-3 font-display text-4xl font-bold sm:text-5xl">
+          <h2 className="mt-3 font-display text-3xl font-bold sm:text-4xl md:text-5xl">
             Representante do <span className="text-gradient">Projeto</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
