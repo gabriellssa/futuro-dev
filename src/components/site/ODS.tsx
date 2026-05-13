@@ -37,7 +37,7 @@ export function ODS() {
 
         <div className="reveal mt-12 grid gap-6 lg:grid-cols-3">
           <div className="lg:col-span-1">
-            <div className="glass rounded-2xl p-8 text-center">
+            <div className="glass rounded-2xl p-6 text-center sm:p-8">
               <div
                 className="mx-auto grid h-24 w-24 place-items-center rounded-2xl text-3xl font-bold text-white shadow-xl"
                 style={{ background: "linear-gradient(135deg, #F26A2E, #E8531B)" }}
