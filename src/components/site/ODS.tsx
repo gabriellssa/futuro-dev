@@ -67,12 +67,12 @@ export function ODS() {
         </div>
 
         <div className="reveal mt-16">
-          <div className="relative overflow-hidden rounded-3xl glass p-10 text-center">
+          <div className="relative overflow-hidden rounded-3xl glass p-6 text-center sm:p-10">
             <div className="absolute -left-10 -top-10 h-40 w-40 rounded-full bg-primary/20 blur-3xl" />
             <div className="absolute -bottom-10 -right-10 h-40 w-40 rounded-full bg-secondary/30 blur-3xl" />
             <Quote className="mx-auto h-8 w-8 text-primary" />
-            <p className="mx-auto mt-4 max-w-3xl font-display text-2xl font-semibold leading-relaxed sm:text-3xl">
-              “A inovação tecnológica é o motor do <span className="text-gradient">desenvolvimento sustentável</span>.”
+            <p className="mx-auto mt-4 max-w-3xl font-display text-xl font-semibold leading-relaxed sm:text-2xl md:text-3xl">
+              "A inovação tecnológica é o motor do <span className="text-gradient">desenvolvimento sustentável</span>."
             </p>
           </div>
         </div>
