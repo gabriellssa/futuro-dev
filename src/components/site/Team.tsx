@@ -6,11 +6,11 @@ export function Team() {
   const [sent, setSent] = useState(false);
 
   return (
-    <section id="equipe" className="relative py-28">
-      <div className="mx-auto max-w-7xl px-6">
+    <section id="equipe" className="relative py-16 sm:py-24 md:py-28">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="reveal mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Representante do Trabalho</p>
-          <h2 className="mt-3 font-display text-4xl font-bold sm:text-5xl">
+          <h2 className="mt-3 font-display text-3xl font-bold sm:text-4xl md:text-5xl">
             Representante do <span className="text-gradient">Projeto</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
@@ -19,7 +19,7 @@ export function Team() {
         </div>
 
         <div className="mt-16 flex justify-center">
-          <div className="reveal glass glass-hover mx-auto w-full max-w-md rounded-2xl p-10 text-center">
+          <div className="reveal glass glass-hover mx-auto w-full max-w-md rounded-2xl p-6 text-center sm:p-10">
             <div className="mx-auto h-32 w-32 overflow-hidden rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 ring-1 ring-primary/30">
               <img src={gabrielPhoto} alt="Gabriel Ricardo" className="h-full w-full object-cover" />
             </div>
@@ -49,13 +49,13 @@ export function Team() {
         </div>
 
         <div className="reveal mt-16 grid gap-8 lg:grid-cols-2">
-          <div className="glass rounded-2xl p-8">
+          <div className="glass rounded-2xl p-6 sm:p-8">
             <h3 className="font-display text-2xl font-bold">Contato</h3>
             <p className="mt-2 text-sm text-muted-foreground">
               Tem dúvidas, sugestões ou quer trocar uma ideia sobre desenvolvimento web? Envie uma mensagem.
             </p>
             <div className="mt-6 space-y-3 text-sm text-muted-foreground">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 break-all">
                 <Mail className="h-4 w-4 text-primary" />
                 lessagabriel2105@gmail.com
               </div>
@@ -72,7 +72,7 @@ export function Team() {
               setSent(true);
               setTimeout(() => setSent(false), 3000);
             }}
-            className="glass rounded-2xl p-8"
+            className="glass rounded-2xl p-6 sm:p-8"
           >
             <div className="space-y-4">
               <div>
